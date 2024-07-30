@@ -43,12 +43,12 @@ This is a backend for a carrier portal application that manages user authenticat
 - **POST /api/v1/job/create-job**
   - Creates a new job.
 
-- **PUT /api/v1/job/update-job/:id**
+- **PATCH /api/v1/job/update-job/:id**
   - Updates a job.
 - **DELETE /api/v1/job/logout-job/:id**
   - Deletes a job.
 
-- **GET /api/jobs**
+- **GET /api/v1/job/get-jobs**
   - Retrieves jobs with optional searching, sorting, and pagination.
   - **Query Parameters:**
     - `search`: Search keyword
